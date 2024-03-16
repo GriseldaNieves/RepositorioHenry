@@ -1,0 +1,31 @@
+body{
+    font-family: "mulish", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#logoHizquierda{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#cortinaDeElementos{
+    display: flex;
+    gap: 15px;
+    font-size:10px ;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+#home:focus{
+    font-weight: 600;
+}
+#logoImg{
+    width: 26px; height: 26px;
+}
+#textoDelLogo{
+    font-size:13px ;
+    font-weight: 600; /*grosor de la fuente*/
+}
